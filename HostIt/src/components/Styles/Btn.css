@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.btn-container
+{
+    display: flex;
+    gap: 2rem
+}
+
+button{
+    padding: 1rem 4rem;
+    border-radius: 15px;
+    font-weight: 600;
+    border-style: none;
+    color:white;
+}
+
+button:nth-child(1){
+    background-color: #04A7D3;
+}
+
+button:nth-child(2){
+    background-color: #FF4646;
+}
