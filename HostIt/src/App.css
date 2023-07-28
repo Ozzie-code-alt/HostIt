@@ -161,3 +161,11 @@ text-align: center;
 .main-container .section-6-container .s6-main-container .testimonial-container h1{
   font-weight: 600;
 }
+
+.main-container .section-6-container .s6-main-container .client-comments-container{
+  width: 1000px;
+
+  max-width: 1200px;
+  background-color: #020230;
+  color: wheat;
+}
