@@ -82,3 +82,27 @@ max-width: 1000px;
   gap: 1rem;
   justify-content: space-evenly;
 }
+
+
+.main-container .section-4-container{
+  height: 50vh;
+  background-image: url("src/Assets/blob-scene-haikei.svg");
+  background-size: cover;
+ background-position: center; 
+}
+
+
+.main-container .section-4-container .s4-main-container{
+  display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 4rem;
+}
+
+
+.main-container .section-4-container .s4-main-container .s4-description-container{
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+  color: white;
+}

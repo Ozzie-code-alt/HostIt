@@ -64,6 +64,28 @@ function App() {
             </div>
           </div>
         </section>
+
+        <section className="section-4-container">
+          <div className="s4-main-container">
+            <div className="video-container">
+              <img src="src/Assets/gif.gif" alt="" />
+            </div>
+              <div className="s4-description-container">
+                <div className="title-container">
+                  <h1>Let us manage your server</h1>
+                </div>
+
+                <div className="s4-p-container">
+                  <p>Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore</p>
+                </div>
+
+                  <div className="s4-btn-container">
+                      <button> Read More</button>
+                  </div>
+              </div>
+
+          </div>
+        </section>
       </div>
     </> 
   );
