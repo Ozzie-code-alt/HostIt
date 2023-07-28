@@ -17,7 +17,7 @@ export const SERVICES = [
         serviceTitle: "Dedicated Hosting",
         description: "Generators on the Internet tend to repeat predefined chunks as necessary",
         serviceImage: product2 ,
-    },
+    }, 
     {
         id:3,
         serviceTitle: "Cloud Hosting", 

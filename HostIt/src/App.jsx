@@ -6,6 +6,8 @@ import { SERVICES } from "./services";
 import Section2 from "./components/Section2";
 import Section6 from './components/section6'
 import { TESTIMONIALS } from "./testimonial";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 function App() {
   return (
     <>
@@ -160,7 +162,7 @@ function App() {
               <p>Even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to</p>
             </div>
             <div className="client-comments-container">
-              {TESTIMONIALS.map((customers) => <Section6 data={customers}/>)}
+              <Section6/>
             </div>
           </div>
         </section>
