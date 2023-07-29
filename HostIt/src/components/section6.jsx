@@ -22,6 +22,7 @@ function Section6() {
             </Carousel.Item>)}
         </Carousel>
         
+    
         </>
  
   )

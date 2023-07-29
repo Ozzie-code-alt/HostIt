@@ -148,7 +148,7 @@ text-align: center;
 
 
 .main-container .section-6-container{
-  height: 40vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -164,8 +164,45 @@ text-align: center;
 
 .main-container .section-6-container .s6-main-container .client-comments-container{
   width: 1000px;
-
   max-width: 1200px;
   background-color: #020230;
   color: wheat;
+  box-shadow: 5px 10px wheat;
+  border-radius: 15px 15px 0 0 ;
+}
+
+
+.main-container .section-6-container .s6-main-container .reach-out-container{
+  display: grid;
+  place-content: center;
+  margin-top: 4rem;
+}
+.main-container .section-6-container .s6-main-container .form-container{
+gap: 2rem;
+ display: inherit;
+ width: 600px;
+ 
+}
+
+.main-container .section-6-container .s6-main-container  .reach-title-container{
+  text-align: center;
+}
+
+.main-container .section-6-container .s6-main-container  .reach-title-container h1{
+  font-weight: 700;
+}
+
+.main-container .section-6-container .s6-main-container .form input{
+  padding: 1rem;
+width: 100%;
+}
+
+.main-container .section-6-container .s6-main-container .btn-container{
+  display: flex;
+  justify-content: center;
+}
+
+.main-container .section-6-container .s6-main-container .Message-container input{
+width: 100%;
+padding: 4rem 1rem;
 }

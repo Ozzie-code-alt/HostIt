@@ -163,7 +163,34 @@ function App() {
             </div>
             <div className="client-comments-container">
               <Section6/>
+              
             </div>
+
+
+            <div className="reach-out-container">
+                <div className="reach-title-container">
+                  <h1>Get in Touch</h1>
+                </div>
+
+                <div className="form-container">
+                <div className="name-container form">
+                  <input type="text" placeholder="Your Name" />
+                </div>
+                <div className="Email-container form">
+                  <input type="text" placeholder="Your Email"/>
+                </div>
+                <div className="Phone-container form">
+                  <input type="text"  placeholder="Your Phone"/>
+                </div>
+                <div className="Message-container">
+                  <input type="text" placeholder="Message"/>
+                </div>
+                  <div className="btn-container ">
+                    <button> <b>SEND</b></button>
+                  </div>
+                </div>
+
+              </div>
           </div>
         </section>
 
