@@ -7,7 +7,7 @@
   font-family: 'Open Sans', sans-serif;
 }
 .main-container{
-height: 800vh;
+height: 610vh;
 width: 100%;
 }
 
@@ -205,4 +205,10 @@ width: 100%;
 .main-container .section-6-container .s6-main-container .Message-container input{
 width: 100%;
 padding: 4rem 1rem;
+}
+
+
+.main-container .section-7-ccontainer{
+
+  margin-top: 1rem;
 }

@@ -5,7 +5,7 @@ import Btn from "./components/Btn";
 import { SERVICES } from "./services";
 import Section2 from "./components/Section2";
 import Section6 from './components/section6'
-import { TESTIMONIALS } from "./testimonial";
+import Section7 from "./components/section7";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 function App() {
@@ -194,6 +194,10 @@ function App() {
           </div>
         </section>
 
+
+<section className="section-7-ccontainer">
+    <Section7/>
+</section>
       </div>
     </>
   );
