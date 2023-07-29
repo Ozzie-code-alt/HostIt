@@ -8,7 +8,7 @@
     display: grid;
     grid-template-columns: repeat(4,1fr);
     color: white;
-    padding: 10rem;
+    padding: 7rem;
     gap: 1rem;
     height: 50vh;
     margin-top: 10%;
@@ -16,5 +16,7 @@
 
 .s7-main-container .Subscribe-container{
   display: grid;
-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }

@@ -209,6 +209,23 @@ padding: 4rem 1rem;
 
 
 .main-container .section-7-ccontainer{
-
   margin-top: 1rem;
+}
+
+
+/*Media Quesriesssss ####################*/
+@media (max-width: 1270px) {
+  .main-container  .section-5-container .s5-main-container {
+    max-width: 100%;
+  }
+  .main-container  .section-5-container .s5-main-container .price-container{
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .main-container .section-6-container{
+    margin-top: 15rem;
+  }
+
+
+
 }
