@@ -272,6 +272,8 @@ width: 600px;
 @media (max-width: 700px) {
   .main-container .section-4-container .s4-main-container{
     display: grid;
+    place-items: center;
+    width: 100%;
   }
 
   .main-container .section-4-container .s4-main-container .s4-description-container .s4-btn-container{
@@ -332,5 +334,24 @@ width: 600px;
 
   .main-container .section-6-container .s6-main-container .form-container{
     width: 400px;
+  }
+}
+
+@media (max-width:510px) {
+  .main-container .section-4-container .s4-main-container .video-container video{
+    width: 350px !important;
+  }
+
+  .main-container .section-5-container .s5-main-container .price-container .price{
+    width: 300px;
+  }
+
+  .main-container .section-3-container .s3-main-container .img-container {
+    display: grid;
+    place-items: center;
+  }
+
+  .main-container .section-3-container .s3-main-container .img-container  img{
+    width: 300px;
   }
 }
