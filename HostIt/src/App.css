@@ -3,8 +3,9 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* outline: red 1px dotted; */
+
   font-family: 'Open Sans', sans-serif;
+  /* outline: red 1px solid; */
 }
 .main-container{
 height: 610vh;
@@ -214,7 +215,7 @@ padding: 4rem 1rem;
 
 
 /*Media Quesriesssss ####################*/
-@media (max-width: 1270px) {
+@media (max-width: 1275px) {
   .main-container  .section-5-container .s5-main-container {
     max-width: 100%;
   }
@@ -245,5 +246,91 @@ padding: 4rem 1rem;
   }
   .main-container .section-6-container{
     margin-top: 40rem;
+  }
+
+}
+
+@media (max-width: 900px) {
+ .main-container .section-6-container .s6-main-container .client-comments-container{
+width: 600px;
+ }
+
+ .main-container .section-4-container .s4-main-container{
+  width: 500px;
+ }
+}
+
+
+@media (max-width: 900px) {
+ .main-container .section-4-container{
+    height: 70vh;
+  }
+
+
+}
+
+@media (max-width: 700px) {
+  .main-container .section-4-container .s4-main-container{
+    display: grid;
+  }
+
+  .main-container .section-4-container .s4-main-container .s4-description-container .s4-btn-container{
+    display: grid;
+    place-items: center;
+  }
+
+}
+
+@media (max-width: 620px) {
+ .main-container .section-1-container .section-1-content-container{
+  display: grid;
+ }
+
+ .main-container .section-1-container .section-1-content-container .sec-1-description-container{
+  place-items: center;
+ }
+
+ .main-container .section-1-container .section-1-content-container .img-container{
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+ }
+ .main-container .section-1-container .section-1-content-container .img-container img{
+  width: 400px;
+ }
+
+ .main-container .section-2-container{
+  margin-top: 1rem;
+ }
+.main-container .section-2-container .services-container{
+  grid-template-columns: repeat(2,1fr);
+}
+
+
+.main-container .section-3-container{
+  margin-bottom: 1rem;
+}
+
+.main-container .section-3-container .s3-main-container{
+  grid-template-columns: repeat(1,1fr);
+}
+.main-container .section-3-container .s3-main-container .description-container{
+  display: grid;
+  place-items: center;
+}
+
+}
+
+@media (max-width:530px) {
+  .main-container .section-6-container .s6-main-container{
+    display: grid;
+    place-items: center;
+  }
+  .main-container .section-6-container .s6-main-container .client-comments-container{
+    width: 400px;
+  }
+
+  .main-container .section-6-container .s6-main-container .form-container{
+    width: 400px;
   }
 }

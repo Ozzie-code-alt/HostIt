@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin:0;
+    /* outline: red 1px solid; */
 }
 
 .nav-container{
@@ -25,3 +26,34 @@ justify-content: space-between;
     font-size: 18px;
     
 }
+
+
+
+.nav-container .nav-btn{
+    display: flex;
+  
+}
+
+
+.nav-container .nav-btn button{
+    border-radius: 15px;
+}
+.nav-container .nav-btn .container-show{
+    display: grid;
+    position: absolute;
+    margin-top: 5rem;
+}
+.nav-container .nav-btn .container-show ul{
+    display: grid;
+   
+    z-index: 1;
+    margin-left: 1rem;
+}
+
+@media (max-width: 1050px) {
+    .nav-container nav ul {
+        display: none;
+    }
+    
+}
+

@@ -35,3 +35,9 @@ object-position: center;
 text-align: center;
 padding: 1rem;
 }
+
+@media (max-width: 620px) {
+  .container{
+    max-width: 250px;
+  }
+}

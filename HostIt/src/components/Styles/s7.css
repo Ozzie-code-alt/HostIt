@@ -20,3 +20,18 @@
   align-items: center;
   gap: 1rem;
 }
+
+@media (max-width: 900px) {
+ .s7-main-container{
+
+  padding: 0;
+ }   
+}
+
+@media (max-width: 530px) {
+ .s7-main-container{
+  grid-template-columns: repeat(1,1fr);
+  margin-top: 5rem;
+  height: 100vh;
+ } 
+}
