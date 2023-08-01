@@ -15,7 +15,14 @@
     border-style: solid ;
     border-width: 1px;
     box-shadow: 5px 10px;
+    transition: 0.5s ease-in-out;
 }
+
+.container:hover{
+  box-shadow: -10px -5px red;
+  transform: translate(5%, 5%);
+}
+
 .container .img-container{
   background-color: aqua;
   height: 70px;
