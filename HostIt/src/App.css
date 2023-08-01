@@ -5,7 +5,7 @@
   box-sizing: border-box;
 
   font-family: 'Open Sans', sans-serif;
-  /* outline: red 1px solid; */
+  outline: red 1px solid;
 }
 .main-container{
 height: 610vh;
@@ -353,5 +353,66 @@ width: 600px;
 
   .main-container .section-3-container .s3-main-container .img-container  img{
     width: 300px;
+  }
+}
+
+
+@media (max-width: 400px) {
+
+  .main-container .section-1-container .section-1-content-container .sec-1-description-container .p-container{
+    padding: 1rem;
+  }
+  .main-container .section-1-container .section-1-content-container .sec-1-description-container .p-container p{
+    font-size: calc(11px + 0.5vw);
+    max-width: 100%;
+  }
+  .main-container .section-1-container .section-1-content-container .sec-1-description-container .btn-container{
+    padding: 1rem;
+  }
+
+  .main-container .section-1-container .section-1-content-container .sec-1-description-container .btn-container button{
+    padding: 10px 20px;
+  }
+
+
+
+  .main-container .section-2-container {
+    margin-top: 2rem;
+  }
+
+  .main-container .section-2-container .services-container{
+    margin-top: 2rem;
+    padding: 2rem;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .main-container .section-3-container{
+    margin-top: 65rem;
+  }
+
+  .main-container .section-6-container .s6-main-container .client-comments-container{
+    width: 300px;
+  }
+
+  .main-container .section-6-container .s6-main-container .form-container{
+    width: 300px;
+  }
+}
+
+
+@media (max-width: 375px) {
+  .main-container .section-4-container{
+    height: 100vh;
+  }
+
+  .main-container .section-3-container{
+    margin-top: 80rem;
+  }
+
+  .main-container .section-7-ccontainer{
+    margin-top: 10rem;
+  }
+
+  .main-container .section-6-container{
+    margin-top: 55rem;
   }
 }

@@ -22,10 +22,12 @@ function App() {
                 </h1>
               </div>
               <div className="p-container">
+                <p>
                 Anything embarrassing hidden in the middle of text. All the
                 Lorem <br />
                 Ipsuanything embarrassing hidden in the middle of text. All the
                 Lorem Ipsumm
+                </p>
               </div>
               <Btn />
             </div>
