@@ -2,6 +2,7 @@
     padding: 0;
     margin:0;
     /* outline: red 1px solid; */
+    scroll-behavior: smooth;
 }
 
 .nav-container{
@@ -24,10 +25,18 @@ justify-content: space-between;
 
 .nav-container nav ul li{
     font-size: 18px;
-    
+    transition: 0.5s ease-out;
+       
 }
-
-
+.nav-container nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+   
+}
+.nav-container nav ul li:hover{
+border-bottom: 1px whitesmoke solid;
+cursor:pointer;
+}
 
 .nav-container .nav-btn{
     display: flex;

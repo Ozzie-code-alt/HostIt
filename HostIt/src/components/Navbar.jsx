@@ -20,10 +20,10 @@ setShow(!show)
             </div>
             <ul>
                 <li>HOME</li>
-                <li>ABOUT</li>
-                <li>SERVICES</li>
-                <li>PRICING</li>
-                <li>CONTACT US</li>
+                <li> <a href="#section3">ABOUT</a></li>
+                <li> <a href="#section2">SERVICES</a></li>
+                <li> <a href="#section5">PRICING</a></li>
+                <li><a href="#section6">CONTACT US</a></li>
                 <li> <FontAwesomeIcon icon={faMagnifyingGlass} /> </li>
                 <li>CALL: 09123-456-789</li>
             </ul>
@@ -34,10 +34,10 @@ setShow(!show)
                     <div className="container-show">
                     <ul >
                     <li>HOME</li>
-                    <li>ABOUT</li>
-                    <li>SERVICES</li>
-                    <li>PRICING</li>
-                    <li>CONTACT US</li>
+                    <li> <a href="#section3">ABOUT</a></li>
+                    <li> <a href="#section2">SERVICES</a></li>
+                    <li> <a href="#section5">PRICING</a></li>
+                    <li><a href="#section6">CONTACT US</a></li>
                     <li> <FontAwesomeIcon icon={faMagnifyingGlass} /> </li>
                     <li>CALL: 09123-456-789</li>                 
                 </ul>

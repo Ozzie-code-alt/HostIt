@@ -38,7 +38,7 @@ function App() {
           </div>
         </section>
 
-        <section className="section-2-container">
+        <section className="section-2-container" id="section2">
           <div className="title-container">
             <h1>Our Services</h1>
           </div>
@@ -49,14 +49,14 @@ function App() {
           </div>
         </section>
 
-        <section className="section-3-container">
+        <section className="section-3-container" id="section3">
           <div className="s3-main-container">
             <div className="description-container">
               <div className="title-container">
                 <h1>About Us</h1>
               </div>
 
-              <div className="details-container">
+              <div className="details-container" >
                 <p>
                   Words which don't look even slightly believable. If you are
                   going to use a passage of Lorem Ipsum, you need to be sure
@@ -77,7 +77,7 @@ function App() {
           </div>
         </section>
 
-        <section className="section-4-container">
+        <section className="section-4-container" id="section4">
           <div className="s4-main-container">
             <div className="video-container">
               <video controls width={"700px"}>
@@ -105,7 +105,7 @@ function App() {
           </div>
         </section>
 
-        <section className="section-5-container">
+        <section className="section-5-container" id="section5">
           <div className="s5-main-container">
             <div className="title-container">
               <h1>Our Pricing</h1>
@@ -169,7 +169,7 @@ function App() {
             </div>
 
 
-            <div className="reach-out-container">
+            <div className="reach-out-container" id="section6">
                 <div className="reach-title-container">
                   <h1>Get in Touch</h1>
                 </div>
@@ -197,7 +197,7 @@ function App() {
         </section>
 
 
-<section className="section-7-ccontainer">
+<section className="section-7-ccontainer" id="section7">
     <Section7/>
 </section>
       </div>
